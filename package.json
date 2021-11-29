@@ -1,0 +1,29 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "description": "Game Of Life",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "testq": "jest",
+    "test": "jest --watchAll --verbose",
+    "testc": "jest --watchAll --verbose --coverage",
+    "play": "node ./src/run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "vite": "^2.5.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.1.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.1.0"
+  }
+}
